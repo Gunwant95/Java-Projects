@@ -1,0 +1,19 @@
+import java.awt.*;
+class DemoFrame extends Frame
+{
+	DemoFrame()
+	{
+		setVisible(true);
+		setSize(400,400);
+		setTitle("Ganesh");
+		setBackground(Color.red);
+	}	
+	public void paint(Graphics g)
+	{
+		g.drawString("Hello",100,100);
+	}
+	public static void main(String[] args) 
+	{
+		new DemoFrame();
+	}
+}
